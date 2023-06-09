@@ -1,0 +1,46 @@
+.service-section{
+    background-color: #054e70f1;
+    color:white;
+    
+}
+.social-sites{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;    
+}
+.social-sites li{
+    margin: 0 10px;
+    padding: 45px;
+    border-radius: 50%;
+    background-color: rgb(8, 73, 134);
+    box-shadow: 5px 5px 2px rgb(0, 14, 27);
+    text-align: center;
+}
+.social-sites a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.social-sites a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+.social-sites a:hover i{
+    color: aqua;
+}
+
+.icon-style{
+    font-size: 40px;
+}
+.leader-container{
+    background-color: rgb(8, 73, 134);
+    color: white
+}
+.text-style{
+    color: rgb(8, 73, 134);
+    margin-left: 40px;
+    letter-spacing: 15px;
+}
