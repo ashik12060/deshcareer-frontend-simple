@@ -3,7 +3,8 @@ import React from 'react'
 const VideoGallery = () => {
   return (
     <section className="leader-container py-5">
-        <div  data-aos="fade-up"  data-aos-duration="3000">
+        <div  data-aos="fade-up"  data-aos-duration="3000"  >
+        {/**/}
           <h1 className="gallery">Video Gallery</h1>
           <hr className="horizontal-style" />
 

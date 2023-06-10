@@ -9,20 +9,18 @@ const Header = () => {
         <div className="container-fluid">
           <a className="navbar-brand text-white ps-5" href="#">
             <div className="d-flex">
-            <div className="back-slash">
-              /
-              </div>
+             
               <div>
-              
-                <h4 className="me-3 pt-2">
-                
+                <h4 className=" pt-2">
                   Anjir <br />
                   Liton
                 </h4>
               </div>
               <div className="para-class">
-               <a href="#">Children's <br/>
-                  Writter</a>
+                <a href="#">
+                  Children's <br />
+                  Writter
+                </a>
               </div>
             </div>
           </a>
@@ -43,7 +41,6 @@ const Header = () => {
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 lg:collapse navbar-collapse justify-content-end">
               <li className="nav-item dropdown lg:nav-style2">
-
                 <a
                   className="nav-link dropdown-toggle text-white"
                   href="#"
@@ -69,7 +66,9 @@ const Header = () => {
 
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                  <Link to="/contact"  className='text-warning'>Contact Page</Link>
+                  <Link to="/contact" className="text-warning">
+                    Contact Page
+                  </Link>
                 </a>
               </li>
               <li className="nav-item">

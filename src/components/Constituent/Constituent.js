@@ -7,17 +7,20 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import '../Home/Home.css';
+
+
 const Constituent = () => {
   return (
-    <section className="service-section">
-      <div  data-aos="fade-up"  data-aos-duration="3000">
+    <section className="service-section overflow-hidden">
+       {/* */}
+      <div data-aos="fade-up"  data-aos-duration="3000" >
         <h1 className="text-center py-5">CONSTITUENT SERVICES</h1>
         <div className=" py-5 container">
           {/* <ul className="social-sites row"> */}
-            <div className=" row">
+            <div className=" row  overflow-hidden">
              
                 
-                  <div className="col-lg-3 col-md-6 social-sites">
+                  <div className="col-lg-3 col-md-6 social-sites  overflow-hidden">
                     <FontAwesomeIcon className="icon-style" icon={faEnvelope} /> <br />
                     <a href="#"> Email Me</a>
                   </div>
@@ -25,13 +28,13 @@ const Constituent = () => {
                 
              
 
-                  <div className="col-lg-3 col-md-6 social-sites">
+                  <div className="col-lg-3 col-md-6 social-sites  overflow-hidden">
                     <FontAwesomeIcon className="icon-style" icon={faPhone} /><br />
                     <a href="#"> Call Me</a>
                   </div>
               
                 
-                  <div className="col-lg-3 col-md-6 social-sites">
+                  <div className="col-lg-3 col-md-6 social-sites  overflow-hidden">
                     <FontAwesomeIcon
                       className="icon-style"
                       icon={faNewspaper}
@@ -40,7 +43,7 @@ const Constituent = () => {
                   </div>
             
                 
-                  <div className="col-lg-3 col-md-6 social-sites">
+                  <div className="col-lg-3 col-md-6 social-sites  overflow-hidden">
                     <FontAwesomeIcon className="icon-style" icon={faGlobe} /><br />
                     <a href="#">Visit Us</a>
                   </div>

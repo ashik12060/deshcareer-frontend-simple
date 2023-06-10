@@ -4,7 +4,6 @@ import Header from "../Shared/Header/Header";
 import Carousel from "../Carousel/Carousel";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import mujibImg from "../../images/Mujib_100_Logo.svg.png";
 import hasinaPM from "../../images/sheikh_hasina_pm.jpg";
 import shishuAcademy from "../../images/shishu academy.jpeg";
 import img333 from "../../images/333.png";
@@ -37,13 +36,13 @@ const Home = () => {
       <Ideology />
 
 {/* Inspiration */}
-      <section className="leader-container">
-        <div className="">
-          <div className="d-flex pt-5 row" data-aos="fade-left"  data-aos-duration="3000">
+      <section className="leader-container  overflow-hidden">
+        <div className="  overflow-hidden">
+          <div className="d-flex pt-5 row" data-aos="fade-up-right"  data-aos-duration="3000">
             <div className=" pt-5 col-lg-6 col-md-12 col-sm-12 col-12 ps-md-5 pb-md-5 ps-sm-5 ps- pb-sm-5 ps-5 pb-5">
               <h2 className="">MY LEADER AND INSPIARATION</h2>
               <h4>-Hon'ble Prime Minister Sheikh Hasina</h4>
-              <button className="ps-2">
+              <button className="p-2 ">
                 Learn More <FontAwesomeIcon icon={faArrowRight} />
               </button>
             </div>
@@ -60,17 +59,19 @@ const Home = () => {
       </section>
 
       {/* upcoming event */}
-      <section>
-        <div className="py-5 my-5"  data-aos="fade-up"  data-aos-duration="3000">
+      <section className=" overflow-hidden">
+        <div className="py-5 my-5 overflow-hidden"  data-aos="fade-up-left"  data-aos-duration="3000" >
+        {/*  */}
           <h1 className="text-style">UPCOMING EVENT</h1>
           <p className="text-center">No event found</p>
         </div>
       </section>
 
       {/* SHUSHU ACADEMY journey */}
-      <section className=" leader-container pb-5">
-        <div class=" d-flex row container" data-aos="fade-left"  data-aos-duration="3000">
-          <div class="pt-5 col-lg-6 col-md-12 col-sm-12 col-12 ps-md-5 pb-md-5 ps-sm-5 ps- pb-sm-5 ps-5 pb-5">
+      <section className=" leader-container pb-5 overflow-hidden">
+        <div class=" d-flex row container  overflow-hidden" >
+          <div class="pt-5 col-lg-6 col-md-12 col-sm-12 col-12 ps-md-5 pb-md-5 ps-sm-5 
+             pb-sm-5 ps-5 pb-5">
             <h2 className="">MY JOURNEY WITH </h2>
             <p>
               One of the strengths to build a golden Bengal in the ideology of
@@ -105,8 +106,9 @@ const Home = () => {
       </section>
 
       {/* INITIATIVES */}
-      <section className="my-5 container row">
-        <div className="d-flex flex-lg-row flex-md-row flex-sm-column flex-column"  data-aos="fade-up"  data-aos-duration="3000">
+      <section className="my-5 container row overflow-hidden">
+        <div className="d-flex flex-lg-row flex-md-row flex-sm-column flex-column"  data-aos="fade-up"  data-aos-duration="3000" >
+        {/* */}
           <div className="col-4 ps-5 ps-sm-5  me-sm-5 me-md-5 me-lg-5 text-lg-left">
             <h2>INITIATIVES</h2>
             <p>

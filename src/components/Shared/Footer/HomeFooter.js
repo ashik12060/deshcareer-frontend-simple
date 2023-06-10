@@ -28,6 +28,7 @@ const HomeFooter = () => {
       <div className="bgColor2">
         <div className="d-flex flex-lg-row flex-md-column flex-sm-column flex-column container text-white footer-container">
           <div data-aos="fade-up"  data-aos-duration="2000">
+         
             <h5>Email: dgbsa22@gmail.com</h5>
             <p>Phone: 01914088093</p>
             <FontAwesomeIcon className="icon-style" icon={faEnvelope} />
