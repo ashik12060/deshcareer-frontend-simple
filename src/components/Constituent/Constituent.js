@@ -1,7 +1,7 @@
 import React from "react";
 import { faEnvelope, faNewspaper } from "@fortawesome/free-regular-svg-icons";
 import {
-  faArrowRight,
+  
   faGlobe,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
@@ -12,11 +12,10 @@ import '../Home/Home.css';
 const Constituent = () => {
   return (
     <section className="service-section overflow-hidden">
-       {/* */}
+       
       <div data-aos="fade-up"  data-aos-duration="3000" >
         <h1 className="text-center py-5">CONSTITUENT SERVICES</h1>
         <div className=" py-5 container">
-          {/* <ul className="social-sites row"> */}
             <div className=" row  overflow-hidden">
              
                 
@@ -50,7 +49,7 @@ const Constituent = () => {
                  
               
             </div>
-          {/* </ul> */}
+         
         </div>
       </div>
     </section>

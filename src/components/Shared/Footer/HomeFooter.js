@@ -41,13 +41,12 @@ const HomeFooter = () => {
             </h2>
           </div>
         </div>
-        
-       
+
         <p className="footer-copyright" >
           &copy;2023 by. <br /> Proudly created with{" "}
           <span className="txt-color">Bangla Puzzle Ltd.</span>
         </p>
-       
+        
       </div>
     </div>
   );
