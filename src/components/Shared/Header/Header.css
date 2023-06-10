@@ -1,0 +1,39 @@
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown .dropdown-menu{
+    display:none;
+}
+.navbar{
+    background-color: rgb(8, 73, 134);
+    
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.btn-style{
+    background-color: rgb(8, 73, 134);
+    color:white;
+    border:1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btn-style:hover{
+    background-color: white;
+    color:black;
+
+}
+.nav-style2{
+    padding-left: 450px;
+}
+.para-class {
+    padding-left: 10px;
+    padding-top:18px;
+    font-size: 12px;
+    line-height: 140%;
+}
+.back-slash{
+    color:rgb(13, 224, 189);
+    font-size: 50px;
+}
