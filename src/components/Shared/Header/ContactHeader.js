@@ -11,10 +11,10 @@ const ContactHeader = () => {
                 </div>
                 <div className='text-right ms-5 d-flex flex-lg-row flex-md-column flex-sm-column flex-column '>
                     <ul className='d-flex pt-2 text-right list-unstyled gap-3 flex-lg-row flex-md-column flex-sm-column flex-column'>
-                        <li><Link to='/' className='text-decoration-none text-black'>Home</Link></li>
+                        <li><Link to='/' className='text-decoration-none text-danger '>Home</Link></li>
                         <li>Privacy Policy</li>
                         <li>Terms Condition</li>
-                        <li className='text-danger'>About Us</li>
+                        <li>About Us</li>
                         <li>Contact Us</li>
                         <li>Advertise</li>
                         

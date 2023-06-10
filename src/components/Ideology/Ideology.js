@@ -8,7 +8,7 @@ const Ideology = () => {
     <section>
 
     <div className=''>
-    <div className="d-flex pt-5 row">
+    <div className="d-flex pt-5 row" data-aos="fade-right"  data-aos-duration="3000">
       <div className='col-lg-6 col-md-12 col-sm-12 col-12 '>
         <img src={mujibImg} className="w-lg-100 w-md-100 w-sm-75 w-75 h-75 ms-5  me-5" alt="...." />
       </div>

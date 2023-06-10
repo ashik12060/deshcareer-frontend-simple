@@ -43,6 +43,7 @@ const Header = () => {
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 lg:collapse navbar-collapse justify-content-end">
               <li className="nav-item dropdown lg:nav-style2">
+
                 <a
                   className="nav-link dropdown-toggle text-white"
                   href="#"
@@ -66,6 +67,11 @@ const Header = () => {
                 </ul>
               </li>
 
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
+                  <Link to="/contact"  className='text-warning'>Contact Page</Link>
+                </a>
+              </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
                   <Link to="/">Event</Link>

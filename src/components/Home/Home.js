@@ -39,7 +39,7 @@ const Home = () => {
 {/* Inspiration */}
       <section className="leader-container">
         <div className="">
-          <div className="d-flex pt-5 row">
+          <div className="d-flex pt-5 row" data-aos="fade-left"  data-aos-duration="3000">
             <div className=" pt-5 col-lg-6 col-md-12 col-sm-12 col-12 ps-md-5 pb-md-5 ps-sm-5 ps- pb-sm-5 ps-5 pb-5">
               <h2 className="">MY LEADER AND INSPIARATION</h2>
               <h4>-Hon'ble Prime Minister Sheikh Hasina</h4>
@@ -61,7 +61,7 @@ const Home = () => {
 
       {/* upcoming event */}
       <section>
-        <div className="py-5 my-5">
+        <div className="py-5 my-5"  data-aos="fade-up"  data-aos-duration="3000">
           <h1 className="text-style">UPCOMING EVENT</h1>
           <p className="text-center">No event found</p>
         </div>
@@ -69,7 +69,7 @@ const Home = () => {
 
       {/* SHUSHU ACADEMY journey */}
       <section className=" leader-container pb-5">
-        <div class=" d-flex row container">
+        <div class=" d-flex row container" data-aos="fade-left"  data-aos-duration="3000">
           <div class="pt-5 col-lg-6 col-md-12 col-sm-12 col-12 ps-md-5 pb-md-5 ps-sm-5 ps- pb-sm-5 ps-5 pb-5">
             <h2 className="">MY JOURNEY WITH </h2>
             <p>
@@ -106,7 +106,7 @@ const Home = () => {
 
       {/* INITIATIVES */}
       <section className="my-5 container row">
-        <div className="d-flex flex-lg-row flex-md-row flex-sm-column flex-column">
+        <div className="d-flex flex-lg-row flex-md-row flex-sm-column flex-column"  data-aos="fade-up"  data-aos-duration="3000">
           <div className="col-4 ps-5 ps-sm-5  me-sm-5 me-md-5 me-lg-5 text-lg-left">
             <h2>INITIATIVES</h2>
             <p>

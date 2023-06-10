@@ -8,7 +8,7 @@ import photo6 from "../../images/p6.jpeg";
 const PhotoGallery = () => {
   return (
     <section className="py-5">
-        <div>
+        <div  data-aos="fade-up"  data-aos-duration="3000">
           <h1 className="gallery">Photo Gallery</h1>
           <hr className="horizontal-style" />
 

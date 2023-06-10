@@ -8,7 +8,7 @@ const Carousel = () => {
   return (
     <div>
       <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
-        <div className="carousel-inner">
+        <div className="carousel-inner"  data-aos="fade-up"  data-aos-duration="3000">
           <div className="carousel-item active img-container">
             <img
               src={img1}

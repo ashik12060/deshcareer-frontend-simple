@@ -27,7 +27,7 @@ const HomeFooter = () => {
       </div>
       <div className="bgColor2">
         <div className="d-flex flex-lg-row flex-md-column flex-sm-column flex-column container text-white footer-container">
-          <div>
+          <div data-aos="fade-up"  data-aos-duration="2000">
             <h5>Email: dgbsa22@gmail.com</h5>
             <p>Phone: 01914088093</p>
             <FontAwesomeIcon className="icon-style" icon={faEnvelope} />
@@ -40,11 +40,13 @@ const HomeFooter = () => {
             </h2>
           </div>
         </div>
-
-        <p className="footer-copyright">
+        
+       
+        <p className="footer-copyright" >
           &copy;2023 by. <br /> Proudly created with{" "}
           <span className="txt-color">Bangla Puzzle Ltd.</span>
         </p>
+       
       </div>
     </div>
   );
