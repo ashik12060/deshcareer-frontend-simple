@@ -4,9 +4,9 @@ import "./Footer.css";
 const ContactFooter = () => {
   return (
     <div className="bgColor pt-5">
-      <div className="container text-center pt-5">
+      <div className="container  pt-5">
         <div className="row">
-          <div className="col-4 text-start text-white">
+          <div className="col-lg-4 col-md-4 col-sm-12 col-12 text-start text-white pt-4">
             <h2>Desh Career</h2>
             <p>
               Desh Career is Career based newsletter in Benglai language. This
@@ -14,7 +14,7 @@ const ContactFooter = () => {
               Saturday at 12.00 PM.
             </p>
           </div>
-          <div className="col-4 row  text-white">
+          <div className="col-lg-4 col-md-4 col-sm-12 col-12 row  text-white pt-4">
             <h3>Privacy & Terms</h3>
             <a className="text-white text-decoration-none" href="#">
               Privacy Policy
@@ -26,32 +26,49 @@ const ContactFooter = () => {
               FAQ
             </a>
           </div>
-          <div className="col-4 row text-end text-white">
+          <div className="col-lg-4 col-md-4 col-sm-12 col-12 row pt-4 text-white text-lg-end">
             <h3>Supports</h3>
             <a>Privacy Policy</a>
             <a>Terms & Conditions</a>
             <a>FAQ</a>
           </div>
         </div>
+
+
+
         <hr class="border border-light border-1 opacity-75" />
 
-        <div className="d-flex gap-3">
+        <div className="d-flex gap-3 flex-lg-row flex-md-row flex-sm-column flex-column">
           <div className="text-white me-5">
-            <small>&copy;2023 Newsletter E-mail Service: ALl COpy right reserved</small>
+            <small>
+              &copy;2023 Newsletter E-mail Service: ALl COpy right reserved
+            </small>
           </div>
 
+          <div className=" d-flex gap-3 flex-lg-row flex-md-row flex-sm-column flex-column text-start">
+            <div className="ms-lg-5">
+            <p>
+              <a className="text-white text-decoration-none " href="#">
+                Privacy Policy
+              </a>
+            </p>
+            </div>
 
-          <div className="  ms-5 d-flex gap-3">
-          <p className="ps-5 ms-5"><a className="text-white text-decoration-none ps-5 ms-5" href="#">
-              Privacy Policy
-            </a></p>
-            <p className=""><a className="text-white text-decoration-none " href="#">
-              Terms & Conditions
-            </a></p>
-            <p className=""><a className="text-white text-decoration-none " href="#">
-              FAQ
-            </a></p>
+            <div>
+            <p className="">
+              <a className="text-white text-decoration-none " href="#">
+                Terms & Conditions
+              </a>
+            </p>
+            </div>
 
+            <div>
+            <p className="">
+              <a className="text-white text-decoration-none " href="#">
+                FAQ
+              </a>
+            </p>
+            </div>
           </div>
         </div>
       </div>
